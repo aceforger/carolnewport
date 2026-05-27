@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&family=Bubblegum+Sans&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #87CEEB;
+  font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E8F5E9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF8F3D;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E67A2E;
+}
+
+.font-fredoka {
+  font-family: 'Fredoka One', cursive;
+}
+
+.font-bubblegum {
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Dino footprint animation */
+@keyframes walk {
+  0% { transform: translateX(-100%) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateX(100vw) rotate(10deg); opacity: 0; }
+}
+
+.animate-walk {
+  animation: walk 12s linear infinite;
+}
+
+.animate-walk-delayed {
+  animation: walk 14s linear infinite;
+  animation-delay: 6s;
+}
+
+/* Floating leaves */
+@keyframes float-leaf {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-20px) rotate(5deg); }
+  75% { transform: translateY(-10px) rotate(-5deg); }
+}
+
+.animate-leaf {
+  animation: float-leaf 6s ease-in-out infinite;
+}
+
+.animate-leaf-delayed {
+  animation: float-leaf 8s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+/* Bounce for buttons */
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 2s ease-in-out infinite;
+}

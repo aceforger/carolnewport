@@ -73,6 +73,12 @@ export default function Footer() {
             >
               {authorInfo.email}
             </a>
+            <a
+              href={`tel:${authorInfo.phone}`}
+              className="block mt-2 text-[#A5D6A7] hover:text-[#FF8F3D] transition-colors text-sm font-nunito"
+            > 
+              {authorInfo.phone}
+            </a>
           </div>
         </div>
 

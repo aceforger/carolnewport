@@ -64,7 +64,7 @@ export default function Hero() {
                 onClick={(e) => handleScroll(e, '#book')}
                 className="px-8 py-4 bg-[#4CAF50] text-white rounded-full font-bold text-lg hover:bg-[#388E3C] transition-all shadow-lg shadow-[#4CAF50]/30 font-nunito transform hover:scale-105 inline-flex items-center justify-center gap-2"
               >
-                <span>📚</span> Explore the Book
+                <span>🕮</span> Explore the Book
               </a>
               <a
                 href="#reviews"

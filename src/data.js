@@ -13,6 +13,8 @@ export const book = {
   subtitle: "Twin Dinosaurs",
   fullTitle: "Dylan and Dexter Twin Dinosaurs",
   description: "This is a story of twin dinosaurs who have found a family. These two dinosaurs were lost but were found by mama and papa T-Rex. Whatever happens in our way, our family will always be there for us.",
+  description2: "Adrian, his twin brother, colored the pictures in this book at age 6. His artwork brings the dinosaurs to life with the vibrant imagination of a child, making each page a personal and heartfelt creation.",
+  dedication: "This storybook is dedicated to my grandson, Declan.",
   coverImage: "/images/front.jpg",
   backCoverImage: "/images/back.jpg",
   tagline: "A heartwarming tale of family, love, and belonging!",
@@ -44,6 +46,7 @@ export const contactInfo = {
 
 export const navLinks = [
   { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
   { name: "The Book", href: "#book" },
   { name: "Reviews", href: "#reviews" },
   { name: "Contact", href: "#contact" },
